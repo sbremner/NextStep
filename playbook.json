@@ -1,0 +1,24 @@
+[
+    {
+        "module": "file.create",
+        "run": {
+            "path": "test.txt",
+            "overwrite": true
+        }
+    },
+    {
+        "module": "file.modify",
+        "run": {
+            "path": "test.txt",
+            "mode": "a",
+            "text": "Hello, World!"
+        }
+    },
+    {
+        "module": "file.create",
+        "run": {
+            "path": "test-2.txt",
+            "overwrite": false
+        }
+    }
+]
