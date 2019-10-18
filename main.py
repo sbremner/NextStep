@@ -71,7 +71,6 @@ def get_parser():
 
 
 def main(args=None):
-    print(args)
     logger.info("NextStep started - loading module arguments")
     logger.info("Execution trace information located in: {}".format(settings.LOG_FILE))
 
