@@ -14,7 +14,7 @@ transmit data.
 
 ## Setup
 
-Download package the git and install the requirements as follows:
+Download the git package and install the requirements as follows:
 
 ```> pip install -r requirements.txt```
 
@@ -75,7 +75,7 @@ Playbooks can be executed as follows:
 
 The framework is built to be extended easily with custom modules. There are two key methods to override to get a module operational: `run()` and `get_parser()`.
 
-The `get_parser())` method is a static method that exposes the available parameters for the CLI invocation of the module. These parameters will be passed to the `run()` method when the module is executed.
+The `get_parser()` method is a static method that exposes the available parameters for the CLI invocation of the module. These parameters will be passed to the `run()` method when the module is executed.
 
 A sample `get_parser()` method might look as follows:
 
